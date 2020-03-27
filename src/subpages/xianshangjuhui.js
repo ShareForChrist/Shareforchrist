@@ -31,7 +31,7 @@ class Xianshangjuhui extends Component {
     return (
       <div className="App">
         <h1>线上聚会</h1>
-        <table>
+        <table className="table">
           <tbody>{this.displayRows()}</tbody>
         </table>
       </div>

@@ -1,42 +1,29 @@
 import React from "react";
 import "./nav.css";
 import { Link } from "react-router-dom";
+import { NavDropdown, Navbar, Nav } from "react-bootstrap";
 
-function Navbar() {
+function Navbars() {
   return (
-    <nav>
-      <Link to="/">
-        <h3>Logo</h3>
-      </Link>
-
-      <ul>
-        <Link to="xianshangjuhui">
-          <li>线上聚会</li>
-        </Link>
-        <Link to="jiatingyuer">
-          <li>家庭育儿</li>
-        </Link>
-        <Link to="gerenlingxiu">
-          <li>个人灵修资源</li>
-        </Link>
-        <Link to="jiaohuimyang">
-          <li>教会牧养资源</li>
-        </Link>
-        <Link to="fangyishouce">
-          <li>防疫手册</li>
-        </Link>
-        <Link to="Kepuwenzhang">
-          <li>科普文章</li>
-        </Link>
-        <Link to="wenzhenpingtai">
-          <li>线上聚会</li>
-        </Link>
-        <Link to="shujuchaxun">
-          <li>数据查询</li>
-        </Link>
-      </ul>
-    </nav>
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="mr-auto">
+          <Nav.Link href="/xianshangjuhui">线上聚会</Nav.Link>
+          <Nav.Link href="/gerenlingxiu">个人灵修资源</Nav.Link>
+          <Nav.Link href="/jiaohuimuyang">教会牧养资源</Nav.Link>
+          <Nav.Link href="/jiatingyuer">家庭育儿资源</Nav.Link>
+          <NavDropdown title="疫情须知" id="collasible-nav-dropdown">
+            <NavDropdown.Item href="/kepuwenzhang">科普文章</NavDropdown.Item>
+            <NavDropdown.Item href="/fangyishouce">防疫手册</NavDropdown.Item>
+            <NavDropdown.Item href="/wenzhenpingtai">问诊平台</NavDropdown.Item>
+            <NavDropdown.Item href="/数据查询">数据查询</NavDropdown.Item>
+          </NavDropdown>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 }
 
-export default Navbar;
+export default Navbars;

@@ -16,8 +16,8 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <h1>Main Page</h1>
         <Navbar />
+        <h1>Main Page</h1>
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/jiatingyuer" component={Jiatingyuer} />
