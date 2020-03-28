@@ -10,13 +10,13 @@ import Kepuwenzhang from "./subpages/kepuwenzhang";
 import Shujuchaxun from "./subpages/shujuchaxun";
 import Wenzhenpingtai from "./subpages/wenzhenpingtai";
 import About from "./components/about/about.js";
+import Home from "./subpages/home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <h1>Main Page</h1>
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
@@ -24,19 +24,13 @@ function App() {
           <Route path="/xianshangjuhui" component={Xianshangjuhui} />
           <Route path="/fangyishouce" component={Fangyishouce} />
           <Route path="/gerenlingxiu" component={Gerenlingxiu} />
-          <Route path="/jiaohuimyang" component={Jiaohuimuyang} />
+          <Route path="/jiaohuimuyang" component={Jiaohuimuyang} />
           <Route path="/Kepuwenzhang" component={Kepuwenzhang} />
           <Route path="/wenzhenpingtai" component={Wenzhenpingtai} />
           <Route path="/shujuchaxun" component={Shujuchaxun} />
         </Switch>
       </div>
-      <About></About>
     </Router>
   );
 }
-const Home = () => (
-  <div>
-    <h1>Home Page</h1>
-  </div>
-);
 export default App;
