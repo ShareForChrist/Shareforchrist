@@ -1,17 +1,20 @@
 import React, { Component } from "react";
 import "./subpage.css";
 import About from "../components/about/about";
+import Header from "../components/header";
+import Footer from "../components/footer";
 
-class Gerenlingxiu extends Component {
+class Home extends Component {
   state = {};
   render() {
     return (
-      <div className="App">
-        <h1>HOME PAGE</h1>
+      <div>
+        <Header></Header>
         <About></About>
+        <Footer />
       </div>
     );
   }
 }
 
-export default Gerenlingxiu;
+export default Home;
