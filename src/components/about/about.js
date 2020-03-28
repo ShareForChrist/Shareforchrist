@@ -7,6 +7,7 @@ import jiaohuimuyang from "../../img/教会牧养-By Darius Dan.png";
 import kepuwenzhang from "../../img/科普文章-By Smashicons.png";
 import wenzhenpingtai from "../../img/问诊平台-By Good Ware.png";
 import fangyishouce from "../../img/防疫手册-By Smashicons.png";
+import shujuchaxun from "../../img/数据查询-By DinosoftLabs.png";
 
 class About extends Component {
   state = {};
@@ -160,7 +161,7 @@ class About extends Component {
                 <div className="d-flex align-items-center icons">
                   <img
                     className="icon"
-                    src="Shareforchrist/img/数据查询-By DinosoftLabs.png"
+                    src="shujuchaxun"
                   />
                 </div>
               </a>
