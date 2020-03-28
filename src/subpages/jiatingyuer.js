@@ -22,7 +22,7 @@ class Jiatingyuer extends Component {
         return newData.push(a);
       }
     });
-
+    //sort the data  date des
     newData.sort((a, b) => (a.date > b.date ? -1 : 1));
 
     this.setState({ data: newData });

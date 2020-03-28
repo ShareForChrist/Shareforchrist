@@ -12,12 +12,13 @@ class Youqinglianjie extends Component {
     data: []
   };
   componentDidMount() {
-    this.sortData();
+    this.sortData(); // before loading all the component excute this first
   }
   sortData = () => {
-    let newData = [];
+    let newData = []; // hold the data that belogs to this categroy
     // eslint-disable-next-line
     this.state.alldata.map(a => {
+      //check the data type wether it fit with the title
       if (a.type === "youqinglianjie-faith") {
         return newData.push(a);
       }
@@ -26,6 +27,7 @@ class Youqinglianjie extends Component {
     this.setState({ data: newData });
   };
   displayRows = () => {
+    //loopinf through the data array and display the data
     return this.state.data.map(d => <Row title={d.title} link={d.link}></Row>);
   };
   render() {
