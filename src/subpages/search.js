@@ -1,17 +1,18 @@
 import React, { Component } from "react";
 import "./subpage.css";
 import Data from "../data/data.json";
+import { Table, Container } from "react-bootstrap";
 import About from "../components/about/about";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import Contact from "../components/contact/contact";
-import Container from "../components/wraper";
+import Row from "../components/row";
 
 class Home extends Component {
   state = {
     data: Data,
     query: "",
-    result: ""
+    result: []
   };
   handleInputChange = () => {
     this.setState({
@@ -22,19 +23,20 @@ class Home extends Component {
   getInfo = event => {
     event.preventDefault();
     let result = [];
-
-    console.log("result final", this.state.query);
+    // eslint-disable-next-line
     this.state.data.map(t => {
-      if (t.title.indexOf(this.state.query) !== null) {
-        console.log(t);
+      if (t.title.indexOf(this.state.query) > 0) {
         return result.push(t);
       }
     });
-    console.log("result", result);
-    console.log("Total data", Data);
     this.setState({
-      data: result
+      result: result
     });
+  };
+  displayRows = () => {
+    return this.state.result.map(d => (
+      <Row title={d.title} link={d.link} date={d.date}></Row>
+    ));
   };
   render() {
     return (
@@ -45,7 +47,9 @@ class Home extends Component {
           onChange={this.handleInputChange}
         />
         <button onClick={this.getInfo}>Submit</button>
-        <p>{this.state.result}</p>
+        <Table hover>
+          <tbody>{this.displayRows()}</tbody>
+        </Table>
       </form>
     );
   }
