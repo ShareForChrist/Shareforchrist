@@ -18,13 +18,13 @@ class Youqinglianjie extends Component {
     let newData = [];
     // eslint-disable-next-line
     this.state.alldata.map(a => {
-      if (a.type === "youqinglianjie") {
+      if (a.type === "youqinglianjie-faith") {
         return newData.push(a);
       }
     });
+    //newData.sort((a, b) => (a.date > b.date ? -1 : 1));
     this.setState({ data: newData });
   };
-
   displayRows = () => {
     return this.state.data.map(d => <Row title={d.title} link={d.link}></Row>);
   };
