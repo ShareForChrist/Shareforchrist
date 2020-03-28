@@ -17,7 +17,7 @@ function Navbars() {
             <NavDropdown.Item href="/kepuwenzhang">科普文章</NavDropdown.Item>
             <NavDropdown.Item href="/fangyishouce">防疫手册</NavDropdown.Item>
             <NavDropdown.Item href="/wenzhenpingtai">问诊平台</NavDropdown.Item>
-            <NavDropdown.Item href="/数据查询">数据查询</NavDropdown.Item>
+            <NavDropdown.Item href="/shujuchaxun">数据查询</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="/youqinglianjie">友情链接</Nav.Link>
         </Nav>
