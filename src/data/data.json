@@ -533,5 +533,79 @@
     "link": "https://www.apple.com/covid19",
     "date": "2020-03-27",
     "type": "wenzhenpingtai"
+  },
+
+
+  {
+    "title": "大J小D",
+    "link": "https://open.weixin.qq.com/qr/code?username=jiayoubaobao2015",
+    "date": "",
+    "type": "youqinglianjie-health"
+  },
+  {
+    "title": "丁香园",
+    "link": "https://open.weixin.qq.com/qr/code?username=dingxiangwang",
+    "date": "",
+    "type": "youqinglianjie-health"
+  },
+  {
+    "title": "Dr.Pei",
+    "link": "https://open.weixin.qq.com/qr/code?username=Drpeihg",
+    "date": "",
+    "type": "youqinglianjie-health"
+  },
+  {
+    "title": "一亩三分地Warald",
+    "link": "https://open.weixin.qq.com/qr/code?username=Warald_1point3acres",
+    "date": "",
+    "type": "youqinglianjie-health"
+  },
+  {
+    "title": "素问轩",
+    "link": "https://open.weixin.qq.com/qr/code?username=wuwenzhongyi",
+    "date": "",
+    "type": "youqinglianjie-health"
+  },
+  {
+    "title": "懒兔子",
+    "link": "https://open.weixin.qq.com/qr/code?username=gh_f8b54d62947b",
+    "date": "",
+    "type": "youqinglianjie-health"
+  },
+  {
+    "title": "加拿大华人志愿服务中心",
+    "link": "https://open.weixin.qq.com/qr/code?username=gh_cb8f85dc8910",
+    "date": "",
+    "type": "youqinglianjie-health"
+  },
+  {
+    "title": "菠萝因子（癌症科普）",
+    "link": "https://open.weixin.qq.com/qr/code?username=checkpoint_1",
+    "date": "",
+    "type": "youqinglianjie-health"
+  },
+  {
+    "title": "福音联盟",
+    "link": "https://open.weixin.qq.com/qr/code?username=TGCChinese",
+    "date": "",
+    "type": "youqinglianjie-faith"
+  },
+  {
+    "title": "OC 举目",
+    "link": "https://open.weixin.qq.com/qr/code?username=FollowChrist",
+    "date": "",
+    "type": "youqinglianjie-faith"
+  },
+  {
+    "title": "健康教会九标志",
+    "link": "https://open.weixin.qq.com/qr/code?username=Drpeihg",
+    "date": "",
+    "type": "youqinglianjie-faith"
+  },
+  {
+    "title": "使者杂志",
+    "link": "https://open.weixin.qq.com/qr/code?username=afcmedia",
+    "date": "",
+    "type": "youqinglianjie-faith"
   }
 ]
