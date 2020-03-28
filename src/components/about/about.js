@@ -1,6 +1,13 @@
 import React, { Component } from "react";
 import "./about.css";
 import xianshangjuhui from "../../img/线上聚会.jpg";
+import gerenlingxiu from "../../img/个人灵修-By Eucalyp.png";
+import jiatingyuer from "../../img/家庭育儿-By Freepik.png";
+import jiaohuimuyang from "../../img/教会牧养-By Darius Dan.png";
+import kepuwenzhang from "../../img/科普文章-By Smashicons.png";
+import wenzhenpingtai from "../../img/问诊平台-By Good Ware.png";
+import fangyishouce from "../../img/防疫手册-By Smashicons.png";
+
 class About extends Component {
   state = {};
   render() {
@@ -42,10 +49,7 @@ class About extends Component {
                 href="Shareforchrist/src/subpages/gerenlingxiu.js"
               >
                 <div className="d-flex align-items-center icons">
-                  <img
-                    className="icon"
-                    src="Shareforchrist/img/个人灵修-By Eucalyp.png"
-                  />
+                  <img className="icon" alt="个人灵修" src={gerenlingxiu} />
                 </div>
               </a>
               <lable className="row ml-2 p-2">
@@ -63,10 +67,7 @@ class About extends Component {
                 href="Shareforchrist/src/subpages/jiaohuimuyang.js"
               >
                 <div className="d-flex align-items-center icons">
-                  <img
-                    className="icon"
-                    src="Shareforchrist/img/教会牧养-By Darius Dan.png"
-                  />
+                  <img className="icon" alt="教会牧养" src={jiaohuimuyang} />
                 </div>
               </a>
               <lable className="row ml-2 p-2">
@@ -84,10 +85,7 @@ class About extends Component {
                 href="Shareforchrist/src/subpages/jiatingyuer.js"
               >
                 <div className="d-flex align-items-center icons">
-                  <img
-                    className="icon"
-                    src="Shareforchrist/img/家庭育儿-By Freepik.png"
-                  />
+                  <img className="icon" alt="家庭育儿" src={jiatingyuer} />
                 </div>
               </a>
               <lable className="row ml-2 p-2">
@@ -105,10 +103,7 @@ class About extends Component {
                 href="Shareforchrist/src/subpages/kepuwenzhang.js"
               >
                 <div className="d-flex align-items-center icons">
-                  <img
-                    className="icon"
-                    src="Shareforchrist/img/科普文章-By Smashicons.png"
-                  />
+                  <img className="icon" alt="科普文章" src={kepuwenzhang}></img>
                 </div>
               </a>
               <lable className="row ml-2 p-2">
@@ -126,10 +121,7 @@ class About extends Component {
                 href="Shareforchrist/src/subpages/fangyishouce.js"
               >
                 <div className="d-flex align-items-center icons">
-                  <img
-                    className="icon"
-                    src="Shareforchrist/img/防疫手册-By Smashicons.png"
-                  />
+                  <img className="icon" alt="防疫手册" src={fangyishouce} />
                 </div>
               </a>
               <lable className="row ml-2 p-2">
@@ -147,10 +139,7 @@ class About extends Component {
                 href="Shareforchrist/src/subpages/wenzhenpingtai.js"
               >
                 <div className="d-flex align-items-center icons">
-                  <img
-                    className="icon"
-                    src="Shareforchrist/img/问诊平台-By Good Ware.png"
-                  />
+                  <img className="icon" alt="问诊平台" src={wenzhenpingtai} />
                 </div>
               </a>
               <lable className="row ml-2 p-2">
