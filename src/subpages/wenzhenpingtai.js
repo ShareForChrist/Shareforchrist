@@ -4,6 +4,7 @@ import Data from "../data/data.json";
 import Row from "../components/row";
 import { Table, Container } from "react-bootstrap";
 import Title from "../components/title";
+import Footer from "../components/footer";
 
 class Wenzhenpingtai extends Component {
   state = {
@@ -31,12 +32,15 @@ class Wenzhenpingtai extends Component {
   };
   render() {
     return (
-      <Container>
-        <Title>问诊平台</Title>
-        <Table hover>
-          <tbody>{this.displayRows()}</tbody>
-        </Table>
-      </Container>
+      <div>
+        <Container>
+          <Title>问诊平台</Title>
+          <Table hover>
+            <tbody>{this.displayRows()}</tbody>
+          </Table>
+        </Container>
+        <Footer />
+      </div>
     );
   }
 }

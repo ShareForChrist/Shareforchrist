@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import "./subpage.css";
 import Data from "../data/data.json";
-import { Table, Container } from "react-bootstrap";
-import About from "../components/about/about";
+import { Table } from "react-bootstrap";
 import Header from "../components/header";
 import Footer from "../components/footer";
-import Contact from "../components/contact/contact";
+import Container from "../components/wraper";
 import Row from "../components/row";
 
 class Home extends Component {
@@ -40,17 +39,22 @@ class Home extends Component {
   };
   render() {
     return (
-      <form>
-        <input
-          placeholder="Search for..."
-          ref={input => (this.search = input)}
-          onChange={this.handleInputChange}
-        />
-        <button onClick={this.getInfo}>Submit</button>
-        <Table hover>
-          <tbody>{this.displayRows()}</tbody>
-        </Table>
-      </form>
+      <div>
+        <Container>
+          <form>
+            <input
+              placeholder="Search for..."
+              ref={input => (this.search = input)}
+              onChange={this.handleInputChange}
+            />
+            <button onClick={this.getInfo}>Submit</button>
+            <Table hover>
+              <tbody>{this.displayRows()}</tbody>
+            </Table>
+          </form>
+        </Container>
+        <Footer />
+      </div>
     );
   }
 }

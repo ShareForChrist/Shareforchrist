@@ -4,6 +4,7 @@ import Data from "../data/data.json";
 import Row from "../components/row";
 import { Table, Container } from "react-bootstrap";
 import Title from "../components/title";
+import Footer from "../components/footer";
 
 class Jiatingyuer extends Component {
   state = {
@@ -33,12 +34,15 @@ class Jiatingyuer extends Component {
   };
   render() {
     return (
-      <Container>
-        <Title>家庭育儿资源</Title>
-        <Table hover>
-          <tbody>{this.displayRows()}</tbody>
-        </Table>
-      </Container>
+      <div>
+        <Container>
+          <Title>家庭育儿资源</Title>
+          <Table hover>
+            <tbody>{this.displayRows()}</tbody>
+          </Table>
+        </Container>
+        <Footer />
+      </div>
     );
   }
 }

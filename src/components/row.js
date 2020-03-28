@@ -6,7 +6,9 @@ class Row extends Component {
     return (
       <tr>
         <td>
-          <a href={this.props.link}>{this.props.title}</a>
+          <a target="_blank" rel="noopener noreferrer" href={this.props.link}>
+            {this.props.title}
+          </a>
         </td>
         <td>{this.props.date}</td>
       </tr>
