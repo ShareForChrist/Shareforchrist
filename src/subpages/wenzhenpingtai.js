@@ -15,6 +15,7 @@ class Wenzhenpingtai extends Component {
   }
   sortData = () => {
     let newData = [];
+    // eslint-disable-next-line
     this.state.alldata.map(a => {
       if (a.type === "wenzhenpingtai") {
         return newData.push(a);

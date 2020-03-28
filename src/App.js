@@ -9,7 +9,6 @@ import Jiaohuimuyang from "./subpages/jiaohuimuyang";
 import Kepuwenzhang from "./subpages/kepuwenzhang";
 import Shujuchaxun from "./subpages/shujuchaxun";
 import Wenzhenpingtai from "./subpages/wenzhenpingtai";
-import About from "./components/about/about.js";
 import Home from "./subpages/home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 

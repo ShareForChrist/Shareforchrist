@@ -15,7 +15,8 @@ class Jiatingyuer extends Component {
   }
   sortData = () => {
     let newData = [];
-    let Datas = this.state.alldata.map(a => {
+    // eslint-disable-next-line
+    this.state.alldata.map(a => {
       if (a.type === "jiatingyuer") {
         return newData.push(a);
       }

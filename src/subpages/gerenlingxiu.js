@@ -15,6 +15,7 @@ class Gerenlingxiu extends Component {
   }
   sortData = () => {
     let newData = [];
+    // eslint-disable-next-line
     this.state.alldata.map(a => {
       if (a.type === "gerenlingxiu") {
         return newData.push(a);
