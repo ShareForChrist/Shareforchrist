@@ -161,7 +161,7 @@ class About extends Component {
                 <div className="d-flex align-items-center icons">
                   <img
                     className="icon"
-                    src="shujuchaxun"
+                    src={shujuchaxun}
                   />
                 </div>
               </a>
