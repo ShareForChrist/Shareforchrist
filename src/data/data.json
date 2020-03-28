@@ -21,6 +21,7 @@
   },
 
   {
+
     "title": "不要满足于影像的聚集",
     "link": "https://mp.weixin.qq.com/s/LbfNTuWV51bxVrLncY3GxQ",
     "date": "2020-03-22",
@@ -28,6 +29,7 @@
   },
 
   {
+
     "title": "新媒体不太南｜EP02 拍摄器材知多少（上）",
     "link": "https://mp.weixin.qq.com/s/yzDKC7Pfm2IZRM75aGrnwg",
     "date": "2020-03-23",
@@ -126,6 +128,8 @@
     "type": "gerenlingxiu"
   },
 
+
+
   {
     "title": "疫情下的“网络教会”",
     "link": "https://mp.weixin.qq.com/s/hDvUB4yZS-QPUT2s3a5rvg",
@@ -174,6 +178,7 @@
     "date": "2020-03-27",
     "type": "jiaohuimuyang"
   },
+
 
   {
     "title": "抗疫时期，如何带孩子在家自学？",
@@ -253,6 +258,7 @@
     "date": "2020-03-27",
     "type": "jiatingyuer"
   },
+
 
   {
     "title": "面对新冠病毒感染，如何提高抵抗力",
@@ -341,26 +347,206 @@
   {
     "title": "丁香公开课《新冠肺炎的诊断与治疗》免费课程英文版",
     "link": "https://www.facebook.com/DXYOpenCourse/",
-    "date": "2020-03-21",
+    "date": "2020-03-24",
+    "type": "kepuwenzhang"
+  },
+  {
+    "title": "张文宏教授为留学生解读疫情，24条重点回顾！【文字】",
+    "link": "https://storage.googleapis.com/hz_bucket/zwh_speech.pdf",
+    "date": "2020-03-27",
+    "type": "kepuwenzhang"
+  },
+  {
+    "title": "张文宏教授为留学生解读疫情，24条重点回顾！【视频】（只支持手机浏览）",
+    "link": "https://live.ixigua.com/room/6808493371683375875",
+    "date": "2020-03-27",
     "type": "kepuwenzhang"
   },
 
+
+
   {
-    "title": "",
-    "link": "",
+    "title": "看起来很靠谱的全球数据",
+    "link": "https://ncov2019.live/data",
     "date": "2020-03-21",
-    "type": "kepuwenzhang"
+    "type": "shujuchaxun"
   },
   {
-    "title": "",
-    "link": "",
+    "title": "北美新型冠状肺炎COVID-19疫情实时动态",
+    "link": "https://coronavirus.1point3acres.com/?from=singlemessage?code=081j7VH42U76zR0JHFF427yFH42j7VHl",
     "date": "2020-03-21",
-    "type": "kepuwenzhang"
+    "type": "shujuchaxun"
   },
   {
-    "title": "",
-    "link": "",
+    "title": "A2N 海外疫情信息汇总",
+    "link": "https://shimo.im/docs/DJAz4bYGaQFMFeqy/read",
     "date": "2020-03-21",
-    "type": "kepuwenzhang"
-  }
+    "type": "shujuchaxun"
+  },
+  {
+    "title": "安省近期疫情相关信息速报 2020/3/21",
+    "link": "https://mp.weixin.qq.com/s/Fe8owptpTHv_zzbPkAWcxA",
+    "date": "2020-03-21",
+    "type": "shujuchaxun"
+  },
+  {
+    "title": "接受医疗物资捐赠和捐款的名单",
+    "link": "https://n2nhelp.blogspot.com/2020/03/blog-post_22.html?m=1&from=timeline&isappinstalled=0",
+    "date": "2020-03-22",
+    "type": "shujuchaxun"
+  },
+  {
+    "title": "医生们在用的全球数据",
+    "link": "https://covidly.com/?from=timeline&showStates=1&country=Canada",
+    "date": "2020-03-23",
+    "type": "shujuchaxun"
+  },
+
+
+  {
+    "title": "留学生疫期个人自助手册",
+    "link": "https://shimo.im/docs/XqqCVHh6x9Ry8RCc/read?from=groupmessage",
+    "date": "2020-03-21",
+    "type": "fangyishouce"
+  },
+
+  {
+    "title": "全球留学生防疫百科",
+    "link": "https://mp.weixin.qq.com/s/1917FzmcKQ0ruemcU26PIQ",
+    "date": "2020-03-21",
+    "type": "fangyishouce"
+  },
+  {
+    "title": "回国人员：回国交通信息 + 入境政策 + 国内隔离政策",
+    "link": "https://shimo.im/docs/RH6gktwhpcvH36RG/read",
+    "date": "2020-03-21",
+    "type": "fangyishouce"
+  },
+  {
+    "title": "不回国人员：居家&出行防疫安全 + 医疗、物资信息",
+    "link": "https://shimo.im/docs/PVAPV2Y2RJFmFVql/read",
+    "date": "2020-03-21",
+    "type": "fangyishouce"
+  },
+
+  {
+    "title": "阿里云线上防疫手册",
+    "link": "https://covid-19.alibabacloud.com/",
+    "date": "2020-03-21",
+    "type": "fangyishouce"
+  },
+  {
+    "title": "海外战疫援助包",
+    "link": "https://shimo.im/sheets/lnq8Mw6or9S6F4kw/MODOC?from=groupmessage",
+    "date": "2020-03-24",
+    "type": "fangyishouce"
+  },
+  {
+    "title": "北美抗疫实用贴 - 如何全副武装出门买菜",
+    "link": "https://mp.weixin.qq.com/s/PMThmkXoRzmKZ0ssj7iSmQ",
+    "date": "2020-03-24",
+    "type": "fangyishouce"
+  },
+
+  {
+    "title": "疫情之下，如何规划风险，建立人生安全网",
+    "link": "https://mp.weixin.qq.com/s/74XBYnXLkXfa0PKiFZNuuQ",
+    "date": "2020-03-25",
+    "type": "fangyishouce"
+  },
+  {
+    "title": "以色列超硬核防疫：医护人员零感染，值得每一个国家学习",
+    "link": "https://mp.weixin.qq.com/s/cpO27TcNNnFlftHQtZienQ",
+    "date": "2020-03-26",
+    "type": "fangyishouce"
+  },
+  {
+    "title": "黑科技来啦！用纳米技术做成的消毒产品",
+    "link": "https://mp.weixin.qq.com/s/XpmguRc8-lBRpQWNlSKZcA",
+    "date": "2020-03-27",
+    "type": "fangyishouce"
+  },
+
+  {
+    "title": "口罩摘下来别乱放！最全口罩指南，看这篇",
+    "link": "https://mp.weixin.qq.com/s/i31_rG1O_kd6Dd8Cz9mrOQ",
+    "date": "2020-03-27",
+    "type": "fangyishouce"
+  },
+  {
+    "title": "国际物流汇总（文档）",
+    "link": "https://shimo.im/sheets/qYthH8WhhGXRHYxp/MODOC/",
+    "date": "2020-03-27",
+    "type": "fangyishouce"
+  },
+
+
+  {
+    "title": "微医全球抗疫平台",
+    "link": "https://promo.guahao.com/global/pneumonia?_cp=yhcbz0315&cs=share&from=timeline&isappinstalled=0",
+    "date": "2020-03-21",
+    "type": "wenzhenpingtai"
+  },
+
+  {
+    "title": "掌上同济 app 下载",
+    "link": "https://tjhapp.com.cn/app/appdown.html",
+    "date": "2020-03-21",
+    "type": "wenzhenpingtai"
+  },
+  {
+    "title": "协和医院互联网门诊操作指南",
+    "link": "https://mp.weixin.qq.com/s/r7TaCEZkQM1lSfPwNf8o6w",
+    "date": "2020-03-21",
+    "type": "wenzhenpingtai"
+  },
+  {
+    "title": "英文版来了！新冠肺炎诊疗方案（第七版）中医方案部分",
+    "link": "https://mp.weixin.qq.com/s/XvfY0tZikA65KQnnPPiUnA",
+    "date": "2020-03-21",
+    "type": "wenzhenpingtai"
+  },
+
+  {
+    "title": "如果你在海外被疫情所困，怡禾有个义诊通道(儿科）",
+    "link": "https://mp.weixin.qq.com/s/I6sosbroD76U29KQv363dQ",
+    "date": "2020-03-24",
+    "type": "wenzhenpingtai"
+  },
+  {
+    "title": "安省远程视频问诊网站，OHIP免费",
+    "link": "https://cover.health/?from=timeline&isappinstalled=0",
+    "date": "2020-03-24",
+    "type": "wenzhenpingtai"
+  },
+  {
+    "title": "关于京东健康“全球免费健康咨询平台“的通告",
+    "link": "https://mp.weixin.qq.com/s/7RYFtTLOX9wexZR8N_q1Mg",
+    "date": "2020-03-24",
+    "type": "wenzhenpingtai"
+  },
+
+  {
+    "title": "用心抗疫(心理援助热线)",
+    "link": "https://mp.weixin.qq.com/s/WrGloygu15TkHaAgWQ1bJQ",
+    "date": "2020-03-25",
+    "type": "wenzhenpingtai"
+  },
+  {
+    "title": "支付宝开通的微医平台",
+    "link": "https://storage.googleapis.com/hz_bucket/alipay_weiyi.jpeg",
+    "date": "2020-03-26",
+    "type": "wenzhenpingtai"
+  },
+  {
+    "title": "苹果和CDC一起开发的帮民众做新冠检测的程序（英文）",
+    "link": "https://www.apple.com/covid19",
+    "date": "2020-03-27",
+    "type": "wenzhenpingtai"
+  },
+
+
+
+
+
 ]
