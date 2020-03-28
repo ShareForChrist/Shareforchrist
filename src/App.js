@@ -10,6 +10,7 @@ import Kepuwenzhang from "./subpages/kepuwenzhang";
 import Shujuchaxun from "./subpages/shujuchaxun";
 import Wenzhenpingtai from "./subpages/wenzhenpingtai";
 import Home from "./subpages/home";
+import Youqinglianjie from "./subpages/youqinglianjie";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path="/Kepuwenzhang" component={Kepuwenzhang} />
           <Route path="/wenzhenpingtai" component={Wenzhenpingtai} />
           <Route path="/shujuchaxun" component={Shujuchaxun} />
+          <Route path="/youqinglianjie" component={Youqinglianjie} />
         </Switch>
       </div>
     </Router>
