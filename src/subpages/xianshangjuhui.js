@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import "./subpage.css";
-//import Row from "../components/row";
 import Data from "../data/data.json";
 import Row from "../components/row";
+import { Table, Container } from "react-bootstrap";
+import Title from "../components/title";
 
 class Xianshangjuhui extends Component {
   state = {
@@ -14,12 +15,12 @@ class Xianshangjuhui extends Component {
   }
   sortData = () => {
     let newData = [];
-    let Datas = this.state.alldata.map(a => {
+    this.state.alldata.map(a => {
       if (a.type === "xianshangjuhui") {
         return newData.push(a);
       }
     });
-    console.log("newdata", newData, "Data", Datas);
+    newData.sort((a, b) => (a.date > b.date ? -1 : 1));
     this.setState({ data: newData });
   };
   displayRows = () => {
@@ -29,12 +30,12 @@ class Xianshangjuhui extends Component {
   };
   render() {
     return (
-      <div className="App">
-        <h1>线上聚会</h1>
-        <table className="table">
+      <Container>
+        <Title>线上聚会</Title>
+        <Table hover>
           <tbody>{this.displayRows()}</tbody>
-        </table>
-      </div>
+        </Table>
+      </Container>
     );
   }
 }
