@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./about.css";
+import { Link } from "react-router-dom";
 import xianshangjuhui from "../../img/线上聚会.jpg";
 import gerenlingxiu from "../../img/个人灵修-By Eucalyp.png";
 import jiatingyuer from "../../img/家庭育儿-By Freepik.png";
@@ -23,10 +24,7 @@ class About extends Component {
           </div>
           <div className="mt-4 d-flex flex-wrap justify-content-around">
             <div className="text-center p-3">
-              <a
-                className="mx-auto"
-                href="Shareforchrist/src/subpages/xianshangjuhui.js"
-              >
+              <Link className="mx-auto" to="xianshangjuhui">
                 <div className="d-flex align-items-center icons">
                   <img
                     className="icon"
@@ -34,144 +32,95 @@ class About extends Component {
                     src={xianshangjuhui}
                   ></img>
                 </div>
-              </a>
+              </Link>
               <lable className="row ml-2 p-2">
-                <a
-                  className="text-dark"
-                  href="/Users/Veladaraston/Desktop/Shareforchrist-master/Shareforchrist/src/subpages/xianshangjuhui.js"
-                >
+                <Link className="text-dark" to="/xianshangjuhui">
                   线上聚会
-                </a>
+                </Link>
               </lable>
             </div>
             <div className="text-center p-3">
-              <a
-                className="mx-auto"
-                href="Shareforchrist/src/subpages/gerenlingxiu.js"
-              >
+              <Link className="mx-auto" to="/gerenlingxiu">
                 <div className="d-flex align-items-center icons">
                   <img className="icon" alt="个人灵修" src={gerenlingxiu} />
                 </div>
-              </a>
+              </Link>
               <lable className="row ml-2 p-2">
-                <a
-                  className="text-dark"
-                  href="Shareforchrist/src/subpages/gerenlingxiu.js"
-                >
+                <Link className="text-dark" to="/gerenlingxiu">
                   个人灵修
-                </a>
+                </Link>
               </lable>
             </div>
             <div className="text-center p-3">
-              <a
-                className="mx-auto"
-                href="Shareforchrist/src/subpages/jiaohuimuyang.js"
-              >
+              <Link className="mx-auto" to="/jiaohuimuyang">
                 <div className="d-flex align-items-center icons">
                   <img className="icon" alt="教会牧养" src={jiaohuimuyang} />
                 </div>
-              </a>
+              </Link>
               <lable className="row ml-2 p-2">
-                <a
-                  className="text-dark"
-                  href="Shareforchrist/src/subpages/jiaohuimuyang.js"
-                >
+                <Link className="text-dark" to="/jiaohuimuyang">
                   教会牧养
-                </a>
+                </Link>
               </lable>
             </div>
             <div className="text-center p-3">
-              <a
-                className="mx-auto"
-                href="Shareforchrist/src/subpages/jiatingyuer.js"
-              >
+              <Link className="mx-auto" to="/jiatingyuer">
                 <div className="d-flex align-items-center icons">
                   <img className="icon" alt="家庭育儿" src={jiatingyuer} />
                 </div>
-              </a>
+              </Link>
               <lable className="row ml-2 p-2">
-                <a
-                  className="text-dark"
-                  href="Shareforchrist/src/subpages/jiatingyuer.js"
-                >
+                <Link className="text-dark" to="/jiatingyuer">
                   家庭育儿
-                </a>
+                </Link>
               </lable>
             </div>
             <div className="text-center p-3">
-              <a
-                className="mx-auto"
-                href="Shareforchrist/src/subpages/kepuwenzhang.js"
-              >
+              <Link className="mx-auto" to="/kepuwenzhang">
                 <div className="d-flex align-items-center icons">
                   <img className="icon" alt="科普文章" src={kepuwenzhang}></img>
                 </div>
-              </a>
+              </Link>
               <lable className="row ml-2 p-2">
-                <a
-                  className="text-dark"
-                  href="Shareforchrist/src/subpages/kepuwenzhang.js"
-                >
+                <Link className="text-dark" to="/kepuwenzhang">
                   科普文章
-                </a>
+                </Link>
               </lable>
             </div>
             <div className="text-center p-3">
-              <a
-                className="mx-auto"
-                href="Shareforchrist/src/subpages/fangyishouce.js"
-              >
+              <Link className="mx-auto" to="/fangyishouce">
                 <div className="d-flex align-items-center icons">
                   <img className="icon" alt="防疫手册" src={fangyishouce} />
                 </div>
-              </a>
+              </Link>
               <lable className="row ml-2 p-2">
-                <a
-                  className="text-dark"
-                  href="Shareforchrist/src/subpages/fangyishouce.js"
-                >
+                <Link className="text-dark" to="/fangyishouce">
                   防疫手册
-                </a>
+                </Link>
               </lable>
             </div>
             <div className="text-center p-3">
-              <a
-                className="mx-auto"
-                href="Shareforchrist/src/subpages/wenzhenpingtai.js"
-              >
+              <Link className="mx-auto" to="/wenzhenpingtai">
                 <div className="d-flex align-items-center icons">
                   <img className="icon" alt="问诊平台" src={wenzhenpingtai} />
                 </div>
-              </a>
+              </Link>
               <lable className="row ml-2 p-2">
-                <a
-                  className="text-dark"
-                  href="Shareforchrist/src/subpages/wenzhenpingtai.js"
-                >
+                <Link className="text-dark" to="/wenzhenpingtai">
                   问诊平台
-                </a>
+                </Link>
               </lable>
             </div>
             <div className="text-center p-3">
-              {" "}
-              <a
-                className="mx-auto"
-                href="Shareforchrist/src/subpages/shujuchaxun.js"
-              >
+              <Link className="mx-auto" to="/shujuchaxun">
                 <div className="d-flex align-items-center icons">
-                  <img
-                    className="icon"
-                    src={shujuchaxun}
-                  />
+                  <img className="icon" alt="" src={shujuchaxun} />
                 </div>
-              </a>
+              </Link>
               <lable className="row ml-2 p-2">
-                <a
-                  className="text-dark"
-                  href="Shareforchrist/src/subpages/shujuchaxun.js"
-                >
+                <Link className="text-dark" to="/shujuchaxun">
                   数据查询
-                </a>
+                </Link>
               </lable>
             </div>
           </div>
