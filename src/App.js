@@ -16,7 +16,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <Router basename="https://shareforchrist.github.io/Shareforchrist/">
       <Navbar />
       <Switch>
         <Route path="/" exact component={Home} />
