@@ -17,22 +17,20 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Navbar />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/jiatingyuer" component={Jiatingyuer} />
-          <Route path="/xianshangjuhui" component={Xianshangjuhui} />
-          <Route path="/fangyishouce" component={Fangyishouce} />
-          <Route path="/gerenlingxiu" component={Gerenlingxiu} />
-          <Route path="/jiaohuimuyang" component={Jiaohuimuyang} />
-          <Route path="/Kepuwenzhang" component={Kepuwenzhang} />
-          <Route path="/wenzhenpingtai" component={Wenzhenpingtai} />
-          <Route path="/shujuchaxun" component={Shujuchaxun} />
-          <Route path="/search" component={Search} />
-          <Route path="/youqinglianjie" component={Youqinglianjie} />
-        </Switch>
-      </div>
+      <Navbar />
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/jiatingyuer" component={Jiatingyuer} />
+        <Route path="/xianshangjuhui" component={Xianshangjuhui} />
+        <Route path="/fangyishouce" component={Fangyishouce} />
+        <Route path="/gerenlingxiu" component={Gerenlingxiu} />
+        <Route path="/jiaohuimuyang" component={Jiaohuimuyang} />
+        <Route path="/Kepuwenzhang" component={Kepuwenzhang} />
+        <Route path="/wenzhenpingtai" component={Wenzhenpingtai} />
+        <Route path="/shujuchaxun" component={Shujuchaxun} />
+        <Route path="/search" component={Search} />
+        <Route path="/youqinglianjie" component={Youqinglianjie} />
+      </Switch>
     </Router>
   );
 }

@@ -27,3 +27,9 @@
   text-align: center;
   justify-content: center;
 }
+
+.roll-bar {
+  width: 100%;
+  border: 1px solid rgba(202, 29, 29, 0.685);
+  height: 30px;
+}
