@@ -12,11 +12,11 @@ import Wenzhenpingtai from "./subpages/wenzhenpingtai";
 import Youqinglianjie from "./subpages/youqinglianjie";
 import Home from "./subpages/home";
 import Search from "./subpages/search";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router basename="https://shareforchrist.github.io/Shareforchrist/">
+    <Router basename="https://shareforchrist.github.io/Shareforchrist">
       <Navbar />
       <Switch>
         <Route path="/" exact component={Home} />
