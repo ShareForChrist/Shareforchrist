@@ -33,7 +33,7 @@ class Home extends Component {
     ));
   };
   render() {
-    console.log(this.props.location.message);
+    //  console.log(this.props.location.message);
     return (
       <div>
         <Container>

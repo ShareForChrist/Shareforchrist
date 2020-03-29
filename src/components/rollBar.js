@@ -23,20 +23,20 @@ class Rollbar extends Component {
       }
     });
     await this.setState({ latest: newData });
-    console.log(this.state.latest);
+    //  console.log(this.state.latest);
   };
   componentDidMount() {
     this.dataSort();
-    console.log(this.state.latest);
+    // console.log(this.state.latest);
   }
   displayRows = a => {
-    console.log(a);
+    // console.log(a);
     return a.map(d => <Links title={d.title} link={d.link} />);
   };
   render() {
-    console.log(this.state.latest);
+    //  console.log(this.state.latest);
     let newData = this.state.latest;
-    console.log(newData);
+    // console.log(newData);
     return (
       <div className="row">
         <Navbar bg="light" className="roll-bar">
