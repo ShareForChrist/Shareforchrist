@@ -30,18 +30,19 @@
 
 }
 .row {
-  width: auto;
-  margin-right: 0em;
-  padding-right: 0em;
+  width: 100%;
+  margin: auto 0em auto 0em;
+  padding: auto 0em auto 0em;
+  overflow: hidden;
 }
 
 .roll-bar {
   width: 100%;
-  border: 1px solid rgba(202, 29, 29, 0.685);
+  max-width: auto;
   height: 30px;
-  margin-right: 0em;
-  padding-right: 0em;
+  
 }
+
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 450px) {
@@ -64,13 +65,14 @@
 .roll-bar {
   margin: auto 0em auto 0em;
   padding: auto 0em auto 0em;
-  width: min-content;
-  border: inherit;
+  max-width: auto;
+  
 }
 .row {
-  margin-right: 0em;
-  margin-left: 0em;
+  margin: auto 0em auto 0em;
   padding: auto 0em auto 0em;
+  
+  
 }
 
 

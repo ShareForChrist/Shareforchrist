@@ -3,7 +3,7 @@ import { Navbar } from "react-bootstrap";
 import Data from "../data/data.json";
 import Links from "./Links";
 import Marquee from "react-marquee-line";
-import "../components/component.css";
+import "./component.css";
 
 class Rollbar extends Component {
   state = {
