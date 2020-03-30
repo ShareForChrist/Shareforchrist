@@ -20,10 +20,10 @@ class Navbars extends Component {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="/xianshangjuhui">线上聚会</Nav.Link>
-              <Nav.Link href="/gerenlingxiu">个人灵修资源</Nav.Link>
-              <Nav.Link href="/jiaohuimuyang">教会牧养资源</Nav.Link>
-              <Nav.Link href="/jiatingyuer">家庭育儿资源</Nav.Link>
+              <Link to="/xianshangjuhui">线上聚会</Link>
+              <Link to="/gerenlingxiu">个人灵修资源</Link>
+              <Link to="/jiaohuimuyang">教会牧养资源</Link>
+              <Link to="/jiatingyuer">家庭育儿资源</Link>
               <NavDropdown title="疫情须知" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="/kepuwenzhang">
                   科普文章
