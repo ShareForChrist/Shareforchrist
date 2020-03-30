@@ -18,7 +18,7 @@ class Navbars extends Component {
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
           <Navbar.Brand>
             <Link className="text-white" to="/">
-              灯台信息塔
+              灯台信息港
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

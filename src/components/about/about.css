@@ -111,4 +111,14 @@
     .header-scripture {
       font-size: 10px;
     }
+    .icon {
+      width: 4em;
+      height: 4em;
+    }
+    .icons {
+      width: 6em;
+      height: 6em;
+      background-color: rgba(202, 198, 197, 0.6);
+      border-radius: 50%;
+    }
   }
