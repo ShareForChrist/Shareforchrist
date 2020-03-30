@@ -1,6 +1,13 @@
 import React, { Component } from "react";
 import "./nav.css";
-import { NavDropdown, Navbar, Nav, Form, FormControl } from "react-bootstrap";
+import {
+  NavDropdown,
+  Navbar,
+  Nav,
+  Form,
+  FormControl,
+  Button
+} from "react-bootstrap";
 import { Link } from "react-router-dom";
 import RollBar from "../../components/rollBar";
 
@@ -81,9 +88,14 @@ class Navbars extends Component {
                 ref={input => (this.search = input)}
                 onChange={this.handleInputChange}
               />
-              <Link to={{ pathname: "/search", message: this.state.query }}>
-                查找
-              </Link>
+              <Button variant="outline-primary">
+                <Link
+                  className="text-white-50"
+                  to={{ pathname: "/search", message: this.state.query }}
+                >
+                  查找
+                </Link>
+              </Button>
             </Form>
           </Navbar.Collapse>
         </Navbar>
