@@ -19,7 +19,7 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route path="/" exact component={Home} />
+        <Route path="/" component={Home} />
         <Route path="/jiatingyuer" component={Jiatingyuer} />
         <Route path="/xianshangjuhui" component={Xianshangjuhui} />
         <Route path="/fangyishouce" component={Fangyishouce} />
