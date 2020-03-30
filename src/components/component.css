@@ -36,20 +36,30 @@
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
+
 .home-header {
-  width: auto;
-  margin-right: 0em;
+  width: 100%;
 }
 
 .home-header-box {
-  width: 100%;
-  margin-right: 0em;
-}
-.row {
   width: auto;
-  margin-right: 0em;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+}
+.home-header-title {
+  margin: 0em;
 }
 
+.roll-bar {
+  margin: 0em;
+  width: auto;
+  border: inherit;
+}
+.row {
+  margin-right: 0em;
   
+}
+
+
 }
