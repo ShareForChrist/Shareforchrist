@@ -17,7 +17,7 @@ class Header extends Component {
             <br />
             我们想在这恐慌的阴暗笼罩大地的时刻，不把自己的灯放在斗底下，而是放在灯台上，照亮我们的家人。
           </p>
-          <p className="text-right mx-3">
+          <p className="text-right mx-3 header-scripture">
             “人点灯，不放在斗底下，是放在灯台上，就照亮一家的人。”
             <br />
             马太福音&nbsp;5:15
