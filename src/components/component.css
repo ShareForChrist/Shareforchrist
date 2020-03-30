@@ -48,6 +48,7 @@
 @media screen and (max-width: 450px) {
   .home-header {
     width: auto;
+    height: auto;
   }
 
   .home-header-box {
