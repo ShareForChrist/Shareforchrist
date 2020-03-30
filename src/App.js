@@ -12,7 +12,7 @@ import Wenzhenpingtai from "./subpages/wenzhenpingtai";
 import Youqinglianjie from "./subpages/youqinglianjie";
 import Home from "./subpages/home";
 import Search from "./subpages/search";
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
