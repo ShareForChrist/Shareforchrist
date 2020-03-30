@@ -40,7 +40,7 @@ function App() {
           render={props => <Wenzhenpingtai />}
         />
         <Route path="/shujuchaxun" exact render={props => <Shujuchaxun />} />
-        <Route path="/search" exact render={props => <Search />} />
+        <Route path="/search" exact component={Search} />
         <Route
           path="/youqinglianjie"
           exact
