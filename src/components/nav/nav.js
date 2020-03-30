@@ -3,10 +3,10 @@ import "./nav.css";
 import {
   NavDropdown,
   Navbar,
-  Nav,
-  Form,
-  FormControl,
-  Button
+  Nav
+  // Form,
+  // FormControl,
+  // Button
 } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import RollBar from "../../components/rollBar";
@@ -80,7 +80,7 @@ class Navbars extends Component {
                 </Link>
               </Nav.Link>
             </Nav>
-            <Form inline>
+            {/* <Form inline>
               <FormControl
                 type="text"
                 placeholder="Search"
@@ -96,7 +96,7 @@ class Navbars extends Component {
                   查找
                 </Link>
               </Button>
-            </Form>
+            </Form> */}
           </Navbar.Collapse>
         </Navbar>
         <RollBar />
