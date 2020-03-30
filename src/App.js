@@ -46,7 +46,7 @@ function App() {
           exact
           render={props => <Youqinglianjie />}
         />
-        <Route path="/" exact component={Home} />
+        <Route exact component={Home} />
       </Switch>
     </Router>
   );
