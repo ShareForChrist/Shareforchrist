@@ -28,36 +28,46 @@
   justify-content: center;
 
 }
+.row {
+  width: auto;
+  margin-right: 0em;
+  padding-right: 0em;
+}
 
 .roll-bar {
   width: 100%;
   border: 1px solid rgba(202, 29, 29, 0.685);
   height: 30px;
+  margin-left: 0em;
+  padding-left: 0em;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 450px) {
 
 .home-header {
-  width: 100%;
+  width: auto;
 }
 
 .home-header-box {
-  width: auto;
+  max-width: inherit;
   margin-left: 0.1em;
-  margin-right: 0.1em;
+  margin-right: 0em;
+  height: fit-content;
 }
 .home-header-title {
   margin: 0em;
 }
 
 .roll-bar {
-  margin: 0em;
-  width: auto;
+  margin-left: 0em;
+  margin-right: 0em;
+  width: min-content;
   border: inherit;
 }
 .row {
   margin-right: 0em;
+  margin-left: 0em;
   
 }
 
