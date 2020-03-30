@@ -16,7 +16,11 @@ class Navbars extends Component {
     return (
       <din>
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-          <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
+          <Navbar.Brand>
+            <Link className="text-white" to="/">
+              灯台信息塔
+            </Link>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto text-white-50">
