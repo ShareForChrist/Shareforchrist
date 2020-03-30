@@ -19,26 +19,55 @@ class Navbars extends Component {
           <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="mr-auto">
-              <Link to="/xianshangjuhui">线上聚会</Link>
-              <Link to="/gerenlingxiu">个人灵修资源</Link>
-              <Link to="/jiaohuimuyang">教会牧养资源</Link>
-              <Link to="/jiatingyuer">家庭育儿资源</Link>
+            <Nav className="mr-auto text-white-50">
+              <Nav.Link>
+                <Link className="text-white-50" to="/xianshangjuhui">
+                  线上聚会
+                </Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link className="text-white-50" to="/gerenlingxiu">
+                  个人灵修资源
+                </Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link className="text-white-50" to="/jiaohuimuyang">
+                  教会牧养资源
+                </Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link className="text-white-50" to="/jiatingyuer">
+                  家庭育儿资源
+                </Link>
+              </Nav.Link>
+
               <NavDropdown title="疫情须知" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="/kepuwenzhang">
-                  科普文章
+                <NavDropdown.Item>
+                  <Link className="text-dark" to="/kepuwenzhang">
+                    科普文章
+                  </Link>
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/fangyishouce">
-                  防疫手册
+                <NavDropdown.Item>
+                  <Link className="text-dark" to="/fangyishouce">
+                    防疫手册
+                  </Link>
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/wenzhenpingtai">
-                  问诊平台
+                <NavDropdown.Item>
+                  <Link className="text-dark" to="/wenzhenpingtai">
+                    问诊平台
+                  </Link>
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/shujuchaxun">
-                  数据查询
+                <NavDropdown.Item>
+                  <Link className="text-dark" to="/shujuchaxun">
+                    数据查询
+                  </Link>
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="/youqinglianjie">友情链接</Nav.Link>
+              <Nav.Link>
+                <Link className="text-white-50" to="/youqinglianjie">
+                  友情链接
+                </Link>
+              </Nav.Link>
             </Nav>
             <Form inline>
               <FormControl
