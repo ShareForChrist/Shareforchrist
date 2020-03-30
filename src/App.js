@@ -19,17 +19,34 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route path="/" component={Home} />
-        <Route path="/jiatingyuer" component={Jiatingyuer} />
-        <Route path="/xianshangjuhui" component={Xianshangjuhui} />
-        <Route path="/fangyishouce" component={Fangyishouce} />
-        <Route path="/gerenlingxiu" component={Gerenlingxiu} />
-        <Route path="/jiaohuimuyang" component={Jiaohuimuyang} />
-        <Route path="/Kepuwenzhang" component={Kepuwenzhang} />
-        <Route path="/wenzhenpingtai" component={Wenzhenpingtai} />
-        <Route path="/shujuchaxun" component={Shujuchaxun} />
-        <Route path="/search" component={Search} />
-        <Route path="/youqinglianjie" component={Youqinglianjie} />
+        <Route path="/" exact render={props => <Home />} />
+        <Route path="/jiatingyuer" exact render={props => <Jiatingyuer />} />
+        <Route
+          path="/xianshangjuhui"
+          exact
+          render={props => <Xianshangjuhui />}
+        />
+        <Route path="/fangyishouce" exact render={props => <Fangyishouce />} />
+        <Route path="/gerenlingxiu" exact render={props => <Gerenlingxiu />} />
+        <Route
+          path="/jiaohuimuyang"
+          exact
+          render={props => <Jiaohuimuyang />}
+        />
+        <Route path="/Kepuwenzhang" exact render={props => <Kepuwenzhang />} />
+        <Route
+          path="/wenzhenpingtai"
+          exact
+          render={props => <Wenzhenpingtai />}
+        />
+        <Route path="/shujuchaxun" exact render={props => <Shujuchaxun />} />
+        <Route path="/search" exact render={props => <Search />} />
+        <Route
+          path="/youqinglianjie"
+          exact
+          render={props => <Youqinglianjie />}
+        />
+        <Route path="/" exact component={Home} />
       </Switch>
     </Router>
   );
