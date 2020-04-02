@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8085a109a82ee984a103acad1eb6151b",
+    "revision": "630c294b5ec8209bf707c179e71644ab",
     "url": "/COVID-19-lychnia/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/COVID-19-lychnia/static/css/2.7d2f2f6a.chunk.css"
   },
   {
-    "revision": "6ab9686a2153cb181f0c",
+    "revision": "c3cc0333798c0612962f",
     "url": "/COVID-19-lychnia/static/css/main.84e42698.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/COVID-19-lychnia/static/js/2.cdf0f79e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6ab9686a2153cb181f0c",
-    "url": "/COVID-19-lychnia/static/js/main.a5392149.chunk.js"
+    "revision": "c3cc0333798c0612962f",
+    "url": "/COVID-19-lychnia/static/js/main.8e152f38.chunk.js"
   },
   {
     "revision": "fdc659de9fbccf372d73",
