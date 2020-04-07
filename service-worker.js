@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/COVID-19-lychnia/precache-manifest.22c81b8c071d3ebbd68abf02f5d0f773.js"
+  "/COVID-19-lychnia/precache-manifest.23fce290cd2c6f29438a8d1df34c1409.js"
 );
 
 self.addEventListener('message', (event) => {
