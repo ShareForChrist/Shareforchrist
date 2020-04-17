@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/COVID-19-lychnia/static/css/main.84e42698.chunk.css",
-    "main.js": "/COVID-19-lychnia/static/js/main.e5dda1bb.chunk.js",
-    "main.js.map": "/COVID-19-lychnia/static/js/main.e5dda1bb.chunk.js.map",
+    "main.js": "/COVID-19-lychnia/static/js/main.6ac8dec8.chunk.js",
+    "main.js.map": "/COVID-19-lychnia/static/js/main.6ac8dec8.chunk.js.map",
     "runtime-main.js": "/COVID-19-lychnia/static/js/runtime-main.ac3a6fd5.js",
     "runtime-main.js.map": "/COVID-19-lychnia/static/js/runtime-main.ac3a6fd5.js.map",
     "static/css/2.7d2f2f6a.chunk.css": "/COVID-19-lychnia/static/css/2.7d2f2f6a.chunk.css",
     "static/js/2.cdf0f79e.chunk.js": "/COVID-19-lychnia/static/js/2.cdf0f79e.chunk.js",
     "static/js/2.cdf0f79e.chunk.js.map": "/COVID-19-lychnia/static/js/2.cdf0f79e.chunk.js.map",
     "index.html": "/COVID-19-lychnia/index.html",
-    "precache-manifest.6caf3ece366c98f49de5c87cb198b6eb.js": "/COVID-19-lychnia/precache-manifest.6caf3ece366c98f49de5c87cb198b6eb.js",
+    "precache-manifest.d53db7049dc47c2ec12353ef5b06aec7.js": "/COVID-19-lychnia/precache-manifest.d53db7049dc47c2ec12353ef5b06aec7.js",
     "service-worker.js": "/COVID-19-lychnia/service-worker.js",
     "static/css/2.7d2f2f6a.chunk.css.map": "/COVID-19-lychnia/static/css/2.7d2f2f6a.chunk.css.map",
     "static/css/main.84e42698.chunk.css.map": "/COVID-19-lychnia/static/css/main.84e42698.chunk.css.map",
@@ -26,6 +26,6 @@
     "static/css/2.7d2f2f6a.chunk.css",
     "static/js/2.cdf0f79e.chunk.js",
     "static/css/main.84e42698.chunk.css",
-    "static/js/main.e5dda1bb.chunk.js"
+    "static/js/main.6ac8dec8.chunk.js"
   ]
 }
