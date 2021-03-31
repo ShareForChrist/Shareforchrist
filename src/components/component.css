@@ -1,6 +1,6 @@
 .home-header {
   height: 70vh;
-  background-image: url("https://storage.googleapis.com/hz_bucket/candle.jpeg");
+  background: url("../img/lamp2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
